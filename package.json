@@ -1,0 +1,24 @@
+{
+  "name": "alt-cli",
+  "version": "1.2.2",
+  "description": "my project cli",
+  "main": "index.js",
+  "bin": {
+    "alt": "./bin/alt.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "whan",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cli-table": "^0.3.1",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^3.0.2",
+    "download-git-repo": "^2.0.0",
+    "inquirer": "^7.0.0",
+    "ora": "^4.0.2"
+  }
+}
